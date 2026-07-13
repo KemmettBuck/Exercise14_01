@@ -59,4 +59,7 @@ public class Exercise14_01 {
         primaryStage.show();
 
     }
+
+    public static void main(String[] args) {
+    }
 }
