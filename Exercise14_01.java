@@ -53,6 +53,10 @@ public class Exercise14_01 {
         gridPane.setPadding(new Insets(10));
 
         // Create scene and set on stage
+        Scene scene = new Scene(gridPane);
+        primaryStage.setTitle("Exercise14_01");
+        primaryStage.setScene(scene);
+        primaryStage.show();
 
     }
 }
