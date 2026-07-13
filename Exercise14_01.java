@@ -39,5 +39,13 @@ public class Exercise14_01 {
         imageView4.setFitWidth(200);
         imageView4.setFitHeight(120);
 
+        // Add images to GridPane (column, row)
+        gridPane.add(imageView1, 0,0); // top left - US
+        gridPane.add(imageView2, 1,0); // top right - UK
+        gridPane.add(imageView3, 0,1); // bottom left - France
+        gridPane.add(imageView4, 1,1); // bottom right - China
+
+        // Set spacing between images
+
     }
 }
