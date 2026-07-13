@@ -61,5 +61,6 @@ public class Exercise14_01 extends Application {
     }
 
     public static void main(String[] args) {
+        launch(args);
     }
 }
