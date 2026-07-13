@@ -22,5 +22,14 @@ public class Exercise14_01 {
         Image flag2 = new Image("flag2.gif"); // UK
         Image flag6 = new Image("flag6.gif"); // France
         Image flag7 = new Image("flag7.gif"); // China
+
+        // Create ImageView for each flag
+        ImageView imageView1 = new ImageView(flag1);
+        ImageView imageView2 = new ImageView(flag2);
+        ImageView imageView3 = new ImageView(flag6);
+        IamgeView imageView4 = new ImageView(flag7);
+
+        // Set size for images
+        imageView1
     }
 }
