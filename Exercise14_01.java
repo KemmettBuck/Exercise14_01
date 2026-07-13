@@ -18,5 +18,9 @@ public class Exercise14_01 {
         GridPane gridPane = new GridPane();
 
         // Load flag images
+        Image flag1 = new Image("flag1.gif"); // US
+        Image flag2 = new Image("flag2.gif"); // UK
+        Image flag6 = new Image("flag6.gif"); // France
+        Image flag7 = new Image("flag7.gif"); // China
     }
 }
