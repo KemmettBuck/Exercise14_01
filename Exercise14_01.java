@@ -11,7 +11,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class Exercise14_01 {
+public class Exercise14_01 extends Application {
     @Override
     public void start(Stage primaryStage) {
         //Create Grid
@@ -27,7 +27,7 @@ public class Exercise14_01 {
         ImageView imageView1 = new ImageView(flag1);
         ImageView imageView2 = new ImageView(flag2);
         ImageView imageView3 = new ImageView(flag6);
-        IamgeView imageView4 = new ImageView(flag7);
+        ImageView imageView4 = new ImageView(flag7);
 
         // Set size for images
         imageView1.setFitWidth(200);
