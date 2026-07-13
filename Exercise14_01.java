@@ -30,6 +30,10 @@ public class Exercise14_01 {
         IamgeView imageView4 = new ImageView(flag7);
 
         // Set size for images
-        imageView1
+        imageView1.setSize(200, 120);
+        imageView2.setSize(200, 120);
+        imageView3.setSize(200, 120);
+        imageView4.setSize(200, 120);
+
     }
 }
