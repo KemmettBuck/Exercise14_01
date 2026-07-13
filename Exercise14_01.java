@@ -46,6 +46,13 @@ public class Exercise14_01 {
         gridPane.add(imageView4, 1,1); // bottom right - China
 
         // Set spacing between images
+        gridPane.setHgap(5);
+        gridPane.setVgap(5);
+
+        // Set padding around grid
+        gridPane.setPadding(new Insets(10));
+
+        // Create scene and set on stage
 
     }
 }
